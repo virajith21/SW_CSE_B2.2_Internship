@@ -1,3 +1,4 @@
+
 import './App.css'
 import ClickDemo from "./components/EventHandlerOne";
 import FormDemo from "./components/EventHandlerTwo";
@@ -6,6 +7,8 @@ import ActionButtonDemo from "./components/EventHandlerThree";
 import SimpleList from "./components/ListAndKeysOne";
 
 import UserListHook from "./components/HookOne";
+import ThemeProviderDemo from "./components/HookTwo";
+
 function App() {
   return (
     <>
@@ -15,9 +18,10 @@ function App() {
 
       <ActionButtonDemo />
 
-      <SimpleList/> */}
+      <SimpleList/>
 
-      <UserListHook/>
+      <UserListHook/> */}
+      <ThemeProviderDemo/>
     </>
   )
 }
